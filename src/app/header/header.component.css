@@ -1,0 +1,31 @@
+.title {
+    grid-area: title;
+    text-align: center; 
+}
+
+.dinh {
+    grid-area: dinh;
+    text-align: center;
+    text-decoration: none;
+    
+     
+}
+
+.nguyen {
+    grid-area: nguyen;
+    text-align: center; 
+}
+
+.khieu {
+    grid-area: khieu;
+    text-align: center; 
+}
+
+
+.grid-container {
+    display: grid;
+    background-color: lightblue;
+    grid-template-areas:
+    'title title title'
+    'dinh nguyen khieu';
+}
